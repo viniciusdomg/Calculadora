@@ -1,0 +1,66 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin-top: 15%;
+    height: auto;
+    width: 218px;
+    background-color: #efefef ;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+p{
+    width: auto;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: black;
+    border-radius: 3px;
+    text-align: end;
+    padding-right: 8px;
+    padding-top: 7px;
+    background-color: #F0F8FF;
+    font-size: 18px;
+}
+
+table, button{
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.img_excluir {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+td[colspan="2"] button {
+    width: 100%;
+}

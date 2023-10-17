@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5">
+    <title>Calculator Vinicius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h2>CALCULADORA</h2>
+        </header>
+                
+        <p class="calculos"></p>
+        
+        <table>
+            <tr>
+                <td><button onclick="limparTela()">CE</button></td>
+                <td><button onclick="receptor('**')">x²</button></td>
+                <td><button onclick="receptor('/')">÷</button></td>
+                <td><button onclick="apagarNumero()"><img class="img_excluir" src="excluir.png" alt="excluir ícon"></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="receptor('7')">7</button></td>
+                <td><button onclick="receptor('8')">8</button></td>
+                <td><button onclick="receptor('9')">9</button></td>
+                <td><button onclick="receptor('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="receptor('4')">4</button></td>
+                <td><button onclick="receptor('5')">5</button></td>
+                <td><button onclick="receptor('6')">6</button></td>
+                <td><button onclick="receptor('-')">-</button></td>
+            </tr>
+            <tr>
+                <td> <button onclick="receptor('1')" >1</button> </td>
+                <td><button onclick="receptor('2')" >2</button></td>
+                <td><button onclick="receptor('3')" >3</button></td>
+                <td><button onclick="receptor('+')" >+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="receptor('0')">0</button></td>
+                <td><button onclick="receptor('.')">,</button></td>
+                <td><button onclick="calcular()">=</button></td>
+            </tr>
+        </table>
+
+        <script src="main.js"></script>
+    
+    </div>
+</body>
+</html>
